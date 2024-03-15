@@ -1,1 +1,7 @@
 # Star-Galaxy-Classifie
+
+This is a machine learning classification model which takes photometric star/galaxy input form them Dark Energy Survey and outputs the probability of a particular point of high luminosity in space either being a star or a galaxy. Included is also a confusion matrix for the model.
+
+The DES dataset was imported into a Pandas dataframe, which is used to make the dataset easier to read. Then, it was cleaned. I built this program using a machine learning model called Random Forest Algorithm using astroanalysis libraries such as SciKit Learn and NumPy in the Python programming package. 80% of the data from the set was used to train the AI model and the rest was used to test it.
+
+I compiled a variety of tests such as accuracy, completeness, precision, and contamination over a diverse array of star-galaxy classifiers for the DES Y1 dataset. These tests can be ported or used as examples for any other photometric dataset. Star-galaxy classification remains as a non-dominant but important systematic source of error for cosmology, and very critical for Milky Way structure measurements and discoveries. Therefore a model like this will serve as an effective foundation to better creation of star-galaxy classification models. Additionally, such a classification model could be used as the foundation to a useful tool in the astrophysics world. An astronomical machine learning model that distinguishes and classifies two similar groups between datasets could be applied to many other research areas in astronomy for astrophysicists to use.
