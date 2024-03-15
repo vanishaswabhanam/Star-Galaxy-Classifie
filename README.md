@@ -1,4 +1,4 @@
-# Star-Galaxy-Classifie
+# Star-Galaxy-Classifier
 
 This is a machine learning classification model which takes photometric star/galaxy input form them Dark Energy Survey and outputs the probability of a particular point of high luminosity in space either being a star or a galaxy. Included is also a confusion matrix for the model.
 
